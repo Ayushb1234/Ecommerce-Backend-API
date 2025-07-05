@@ -39,23 +39,30 @@ A robust and scalable backend API built for an ecommerce platform using Node.js,
 git clone https://github.com/your-username/ecommerce-backend-api.git
 cd ecommerce-backend-api
 npm install
+```
 
-2. Create .env file
+### 2. Create .env file
+
+```bash
 env
 Copy
 Edit
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/ecommerce
 JWT_SECRET=your_jwt_secret
-3. Run the server
-bash
+```
+
+### 3. Run the server
+```bash
 Copy
 Edit
 npm run dev
 Access API: http://localhost:5000
 Swagger Docs: http://localhost:5000/api-docs
+```
 
- Sample Endpoints
+### Sample Endpoints
+
 Method	Endpoint	Description
 POST	/api/auth/register	Register user
 POST	/api/auth/login	Login & get JWT
