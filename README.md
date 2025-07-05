@@ -19,16 +19,16 @@ A robust and scalable backend API built for an ecommerce platform using Node.js,
 ## 📁 Folder Structure
 
 📦 root/
-┣ 📂configs/ → DB & env setup
-┣ 📂controllers/ → Business logic
-┣ 📂middlewares/ → Auth, error handlers
-┣ 📂models/ → Mongoose schemas
-┣ 📂routes/ → API routes
-┣ 📂utils/ → Helpers (tokens, logger)
-┣ 📄app.js → Express app config
-┣ 📄index.js → Server entry point
-┣ 📄.env → Env variables
-┣ 📄swagger.yaml → Swagger API docs
+- 📂configs/ → DB & env setup
+- 📂controllers/ → Business logic
+- 📂middlewares/ → Auth, error handlers
+- 📂models/ → Mongoose schemas
+- 📂routes/ → API routes
+- 📂utils/ → Helpers (tokens, logger)
+- 📄app.js → Express app config
+- 📄index.js → Server entry point
+- 📄.env → Env variables
+- 📄swagger.yaml → Swagger API docs
 
 
 ## ⚙️ Getting Started
@@ -62,13 +62,15 @@ Swagger Docs: http://localhost:5000/api-docs
 ```
 
 ### Sample Endpoints
+```bash
 
-Method	Endpoint	Description
-POST	/api/auth/register	Register user
-POST	/api/auth/login	Login & get JWT
-GET	/api/products	Fetch all products
-POST	/api/cart/add/:id	Add item to cart
-POST	/api/orders/create	Place an order
+-> Method	Endpoint	Description
+-> POST	/api/auth/register	Register user
+-> POST	/api/auth/login	Login & get JWT
+-> GET	/api/products	Fetch all products
+-> POST	/api/cart/add/:id	Add item to cart
+-> POST	/api/orders/create	Place an order
+```
 
 All using postman..........
 
